@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Rubik+Moonrocks&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.header-section {
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+.header-class {
+    width: 90%;
+    margin-top: 3%;
+
+
+}
+
+.header-title {
+    width: 90%;
+    margin: 0 auto;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5%;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav li a,
+i {
+    text-decoration: none;
+    color: #000;
+    margin-right: 20px;
+
+
+}
+
+.prebook-section {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.section2 {
+    display: flex;
+
+}
+
+.prebook-title {
+    width: 50%;
+}
+
+.prebook-img img {
+
+    width: 100%;
+}
+
+.in-para {
+    margin: 20px 0;
+
+}
+
+/*-------------------- logos-sec ---------------
+-------------------------*/
+
+.logos-sec {
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+
+.logos-title {
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: 0 auto;
+
+    padding: 1%;
+    box-shadow: 5px 0px 5px gray;
+
+
+}
+
+/* popular-collection section*/
+
+
+
+.container {
+    width: 100%;
+    margin: 40px 0;
+}
+
+.popular-collection {
+    text-align: center;
+}
+
+.popular-collection-sec {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.product-card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.cards {
+    height: 450px;
+    width: 329px;
+    margin-top: 30px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+
+    padding: 4% 4%;
+
+}
+
+.card-text {
+    padding-top: 4%;
+
+}
+
+.new-text {
+    padding-bottom: 4%;
+}
+
+
+.fa-star.filled,
+.fa-star-half-stroke.filled {
+    color: #FFC014;
+
+}
+
+.icon-class {
+    display: flex;
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+
+
+}
